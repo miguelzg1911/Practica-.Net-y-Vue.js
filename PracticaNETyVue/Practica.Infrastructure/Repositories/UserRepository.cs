@@ -1,42 +1,53 @@
+using Microsoft.EntityFrameworkCore;
 using Practica.Domain.Entities;
 using Practica.Domain.Interfaces;
+using Practica.Infrastructure.Data;
 
 namespace Practica.Infrastructure.Repositories;
 
 public class UserRepository : IUserRepository
 {
-    public Task<IEnumerable<User>> GetAllAsync()
+    private readonly AppDbContext _context;
+
+    public UserRepository(AppDbContext context)
     {
-        throw new NotImplementedException();
+        _context = context;
+    }
+    
+    public async Task<IEnumerable<User>> GetAllAsync()
+    {
+        return await _context.Users.ToListAsync();
     }
 
-    public Task<User?> GetByIdAsync(int id)
+    public async Task<User?> GetByIdAsync(int id)
     {
-        throw new NotImplementedException();
+        return await _context.Users.FindAsync(id);
     }
 
-    public Task<User?> GetByEmailAsync(string email)
+    public async Task<User?> GetByEmailAsync(string email)
     {
-        throw new NotImplementedException();
+        return await _context.Users.FirstOrDefaultAsync(u => u.Email == email);
     }
 
-    public Task AddAsync(User user)
+    public async Task AddAsync(User user)
     {
-        throw new NotImplementedException();
+        await _context.Users.AddAsync(user);
     }
 
-    public Task UpdateAsync(int id, User user)
+    public async Task UpdateAsync(User user)
     {
-        throw new NotImplementedException();
+        _context.Users.Update(user);
     }
 
-    public Task DeleteAsync(int id, User user)
+    public async Task DeleteAsync(int id, User user)
     {
-        throw new NotImplementedException();
+        var existingUser = await _context.Users.FindAsync(id, user);
+        if  (existingUser != null)
+            _context.Users.Remove(existingUser);
     }
 
-    public Task SaveChangesAsync()
+    public async Task SaveChangesAsync()
     {
-        throw new NotImplementedException();
+        await _context.SaveChangesAsync();
     }
 }

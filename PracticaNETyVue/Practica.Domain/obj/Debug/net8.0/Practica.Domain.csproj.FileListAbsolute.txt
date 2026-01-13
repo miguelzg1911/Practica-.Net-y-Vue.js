@@ -1,0 +1,12 @@
+/home/coders/Imágenes/Practica-.Net-y-Vue.js/PracticaNETyVue/Practica.Domain/bin/Debug/net8.0/Practica.Domain.deps.json
+/home/coders/Imágenes/Practica-.Net-y-Vue.js/PracticaNETyVue/Practica.Domain/bin/Debug/net8.0/Practica.Domain.dll
+/home/coders/Imágenes/Practica-.Net-y-Vue.js/PracticaNETyVue/Practica.Domain/bin/Debug/net8.0/Practica.Domain.pdb
+/home/coders/Imágenes/Practica-.Net-y-Vue.js/PracticaNETyVue/Practica.Domain/obj/Debug/net8.0/Practica.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/home/coders/Imágenes/Practica-.Net-y-Vue.js/PracticaNETyVue/Practica.Domain/obj/Debug/net8.0/Practica.Domain.AssemblyInfoInputs.cache
+/home/coders/Imágenes/Practica-.Net-y-Vue.js/PracticaNETyVue/Practica.Domain/obj/Debug/net8.0/Practica.Domain.AssemblyInfo.cs
+/home/coders/Imágenes/Practica-.Net-y-Vue.js/PracticaNETyVue/Practica.Domain/obj/Debug/net8.0/Practica.Domain.csproj.CoreCompileInputs.cache
+/home/coders/Imágenes/Practica-.Net-y-Vue.js/PracticaNETyVue/Practica.Domain/obj/Debug/net8.0/Practica.Domain.sourcelink.json
+/home/coders/Imágenes/Practica-.Net-y-Vue.js/PracticaNETyVue/Practica.Domain/obj/Debug/net8.0/Practica.Domain.dll
+/home/coders/Imágenes/Practica-.Net-y-Vue.js/PracticaNETyVue/Practica.Domain/obj/Debug/net8.0/refint/Practica.Domain.dll
+/home/coders/Imágenes/Practica-.Net-y-Vue.js/PracticaNETyVue/Practica.Domain/obj/Debug/net8.0/Practica.Domain.pdb
+/home/coders/Imágenes/Practica-.Net-y-Vue.js/PracticaNETyVue/Practica.Domain/obj/Debug/net8.0/ref/Practica.Domain.dll

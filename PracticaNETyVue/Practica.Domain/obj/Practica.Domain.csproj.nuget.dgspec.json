@@ -1,31 +1,30 @@
 {
   "format": 1,
   "restore": {
-    "/home/coders/PracticaNETyVue/Practica.Domain/Practica.Domain.csproj": {}
+    "/home/coders/Imágenes/Practica-.Net-y-Vue.js/PracticaNETyVue/Practica.Domain/Practica.Domain.csproj": {}
   },
   "projects": {
-    "/home/coders/PracticaNETyVue/Practica.Domain/Practica.Domain.csproj": {
+    "/home/coders/Imágenes/Practica-.Net-y-Vue.js/PracticaNETyVue/Practica.Domain/Practica.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/coders/PracticaNETyVue/Practica.Domain/Practica.Domain.csproj",
+        "projectUniqueName": "/home/coders/Imágenes/Practica-.Net-y-Vue.js/PracticaNETyVue/Practica.Domain/Practica.Domain.csproj",
         "projectName": "Practica.Domain",
-        "projectPath": "/home/coders/PracticaNETyVue/Practica.Domain/Practica.Domain.csproj",
+        "projectPath": "/home/coders/Imágenes/Practica-.Net-y-Vue.js/PracticaNETyVue/Practica.Domain/Practica.Domain.csproj",
         "packagesPath": "/home/coders/.nuget/packages/",
-        "outputPath": "/home/coders/PracticaNETyVue/Practica.Domain/obj/",
+        "outputPath": "/home/coders/Imágenes/Practica-.Net-y-Vue.js/PracticaNETyVue/Practica.Domain/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/coders/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "net9.0"
+          "net8.0"
         ],
         "sources": {
-          "/usr/lib/dotnet/library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net9.0": {
-            "targetAlias": "net9.0",
+          "net8.0": {
+            "targetAlias": "net8.0",
             "projectReferences": {}
           }
         },
@@ -33,17 +32,11 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.100"
+        }
       },
       "frameworks": {
-        "net9.0": {
-          "targetAlias": "net9.0",
+        "net8.0": {
+          "targetAlias": "net8.0",
           "imports": [
             "net461",
             "net462",
@@ -60,7 +53,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/9.0.112/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.122/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

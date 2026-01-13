@@ -6,7 +6,7 @@ using Practica.Infrastructure.Data;
 namespace Practica.Infrastructure.Repositories;
 
 public class StudentRepository : IStudentRepository
-{
+{ 
     private readonly AppDbContext _context;
 
     public StudentRepository(AppDbContext context)
@@ -41,7 +41,9 @@ public class StudentRepository : IStudentRepository
     public async Task DeleteAsync(int id)
     {
         var existingStudent = await _context.Students.FindAsync(id);
-        _context.Students.Remove(existingStudent);
+        
+        if (existingStudent != null)
+            _context.Students.Remove(existingStudent);
     }
 
     public async Task SaveChangesAsync()

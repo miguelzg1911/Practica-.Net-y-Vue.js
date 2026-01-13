@@ -1,37 +1,48 @@
+using Microsoft.EntityFrameworkCore;
 using Practica.Domain.Entities;
 using Practica.Domain.Interfaces;
+using Practica.Infrastructure.Data;
 
 namespace Practica.Infrastructure.Repositories;
 
 public class CourseRepository : ICourseRepository
 {
-    public Task<IEnumerable<Course>> GetAllAsync()
+    private readonly AppDbContext _context;
+
+    public CourseRepository(AppDbContext context)
     {
-        throw new NotImplementedException();
+        _context = context;
+    }
+    public async Task<IEnumerable<Course>> GetAllAsync()
+    {
+        return await _context.Courses.ToListAsync();
     }
 
-    public Task<Course?> GetCourseByNameAsync(string name)
+    public async Task<Course?> GetCourseByNameAsync(string name)
     {
-        throw new NotImplementedException();
+        return await _context.Courses.FirstOrDefaultAsync(c => c.Name == name);
     }
 
-    public Task AddAsync(Course course)
+    public async Task AddAsync(Course course)
     {
-        throw new NotImplementedException();
+        await _context.AddAsync(course);
     }
 
-    public Task UpdateAsync(int id, Course course)
+    public async Task UpdateAsync(Course course)
     {
-        throw new NotImplementedException();
+        _context.Update(course);
     }
 
-    public Task DeleteAsync(int id, Course course)
+    public async Task DeleteAsync(int id, Course course)
     {
-        throw new NotImplementedException();
+        var existingCourse = await _context.Courses.FindAsync(id, course);
+        
+        if (existingCourse != null)
+            _context.Courses.Remove(existingCourse);
     }
 
-    public Task SaveChangesAsync()
+    public async Task SaveChangesAsync()
     {
-        throw new NotImplementedException();
+        await _context.SaveChangesAsync();
     }
 }

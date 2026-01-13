@@ -1,10 +1,10 @@
 {
   "version": 3,
   "targets": {
-    "net9.0": {
+    "net8.0": {
       "Practica.Domain/1.0.0": {
         "type": "project",
-        "framework": ".NETCoreApp,Version=v9.0",
+        "framework": ".NETCoreApp,Version=v8.0",
         "compile": {
           "bin/placeholder/Practica.Domain.dll": {}
         },
@@ -22,7 +22,7 @@
     }
   },
   "projectFileDependencyGroups": {
-    "net9.0": [
+    "net8.0": [
       "Practica.Domain >= 1.0.0"
     ]
   },
@@ -32,28 +32,27 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/coders/PracticaNETyVue/Practica.Application/Practica.Application.csproj",
+      "projectUniqueName": "/home/coders/Imágenes/Practica-.Net-y-Vue.js/PracticaNETyVue/Practica.Application/Practica.Application.csproj",
       "projectName": "Practica.Application",
-      "projectPath": "/home/coders/PracticaNETyVue/Practica.Application/Practica.Application.csproj",
+      "projectPath": "/home/coders/Imágenes/Practica-.Net-y-Vue.js/PracticaNETyVue/Practica.Application/Practica.Application.csproj",
       "packagesPath": "/home/coders/.nuget/packages/",
-      "outputPath": "/home/coders/PracticaNETyVue/Practica.Application/obj/",
+      "outputPath": "/home/coders/Imágenes/Practica-.Net-y-Vue.js/PracticaNETyVue/Practica.Application/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/coders/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
-        "net9.0"
+        "net8.0"
       ],
       "sources": {
-        "/usr/lib/dotnet/library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "net9.0": {
-          "targetAlias": "net9.0",
+        "net8.0": {
+          "targetAlias": "net8.0",
           "projectReferences": {
-            "/home/coders/PracticaNETyVue/Practica.Domain/Practica.Domain.csproj": {
-              "projectPath": "/home/coders/PracticaNETyVue/Practica.Domain/Practica.Domain.csproj"
+            "/home/coders/Imágenes/Practica-.Net-y-Vue.js/PracticaNETyVue/Practica.Domain/Practica.Domain.csproj": {
+              "projectPath": "/home/coders/Imágenes/Practica-.Net-y-Vue.js/PracticaNETyVue/Practica.Domain/Practica.Domain.csproj"
             }
           }
         }
@@ -62,17 +61,11 @@
         "warnAsError": [
           "NU1605"
         ]
-      },
-      "restoreAuditProperties": {
-        "enableAudit": "true",
-        "auditLevel": "low",
-        "auditMode": "direct"
-      },
-      "SdkAnalysisLevel": "9.0.100"
+      }
     },
     "frameworks": {
-      "net9.0": {
-        "targetAlias": "net9.0",
+      "net8.0": {
+        "targetAlias": "net8.0",
         "imports": [
           "net461",
           "net462",
@@ -89,7 +82,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/9.0.112/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.122/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
