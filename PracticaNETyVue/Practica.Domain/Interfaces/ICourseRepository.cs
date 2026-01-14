@@ -5,6 +5,7 @@ namespace Practica.Domain.Interfaces;
 public interface ICourseRepository
 {
     Task<IEnumerable<Course>> GetAllAsync();
+    Task<Course?> GetByIdAsync(int id);
     Task<Course?> GetByNameAsync(string name);
     Task AddAsync(Course course);
     Task UpdateAsync(Course course);

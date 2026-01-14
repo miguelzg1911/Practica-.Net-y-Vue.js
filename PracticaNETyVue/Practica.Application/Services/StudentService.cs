@@ -13,12 +13,12 @@ public class StudentService : IStudentService
     {
         _repository = repository;
     }
-
-    public async Task<IEnumerable<StudentDto>> GetAllAsync()
+    
+    public async Task<IEnumerable<StudentResponseDto>> GetAllAsync()
     {
         var students = await _repository.GetAllAsync();
 
-        return students.Select(s => new StudentDto
+        return students.Select(s => new StudentResponseDto
         {
             Id = s.Id,
             Name = s.Name,
@@ -26,12 +26,14 @@ public class StudentService : IStudentService
         });
     }
 
-    public async Task<StudentDto?> GetByIdAsync(int id)
+    public async Task<StudentResponseDto?> GetByIdAsync(int id)
     {
         var student = await _repository.GetByIdAsync(id);
-        if (student == null) return null;
+        
+        if (student == null)
+            throw new Exception("Student not found");
 
-        return new StudentDto
+        return new StudentResponseDto
         {
             Id = student.Id,
             Name = student.Name,
@@ -39,26 +41,33 @@ public class StudentService : IStudentService
         };
     }
 
-    public async Task CreateAsync(CreateStudentDto dto)
+    public async Task<StudentResponseDto> CreateAsync(StudentInputDto dto)
     {
         var student = new Student
         {
             Name = dto.Name,
             Document = dto.Document
         };
-
+        
         await _repository.AddAsync(student);
         await _repository.SaveChangesAsync();
+
+        return new StudentResponseDto
+        {
+            Id = student.Id,
+            Name = student.Name,
+            Document = student.Document
+        };
     }
 
-    public async Task UpdateAsync(int id, UpdateStudentDto dto)
+    public async Task UpdateAsync(int id, StudentInputDto dto)
     {
         var student = await _repository.GetByIdAsync(id);
         if (student == null) return;
-
+        
         student.Name = dto.Name;
         student.Document = dto.Document;
-
+        
         await _repository.UpdateAsync(student);
         await _repository.SaveChangesAsync();
     }
@@ -66,8 +75,10 @@ public class StudentService : IStudentService
     public async Task DeleteAsync(int id)
     {
         var student = await _repository.GetByIdAsync(id);
-        if (student == null) return;
-
+        
+        if (student == null)
+            throw new Exception("Student not found");
+        
         await _repository.DeleteAsync(student);
         await _repository.SaveChangesAsync();
     }

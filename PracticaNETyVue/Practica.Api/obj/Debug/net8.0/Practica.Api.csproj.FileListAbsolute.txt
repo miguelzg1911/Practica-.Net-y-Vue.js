@@ -110,3 +110,6 @@
 /home/coders/Imágenes/Practica-.Net-y-Vue.js/PracticaNETyVue/Practica.Api/obj/Debug/net8.0/Practica.Api.pdb
 /home/coders/Imágenes/Practica-.Net-y-Vue.js/PracticaNETyVue/Practica.Api/obj/Debug/net8.0/Practica.Api.genruntimeconfig.cache
 /home/coders/Imágenes/Practica-.Net-y-Vue.js/PracticaNETyVue/Practica.Api/obj/Debug/net8.0/ref/Practica.Api.dll
+/home/coders/Practica-.Net-y-Vue.js/PracticaNETyVue/Practica.Api/obj/Debug/net8.0/Practica.Api.dll
+/home/coders/Practica-.Net-y-Vue.js/PracticaNETyVue/Practica.Api/obj/Debug/net8.0/refint/Practica.Api.dll
+/home/coders/Practica-.Net-y-Vue.js/PracticaNETyVue/Practica.Api/obj/Debug/net8.0/Practica.Api.pdb

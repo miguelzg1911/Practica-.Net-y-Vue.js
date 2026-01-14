@@ -18,6 +18,11 @@ public class CourseRepository : ICourseRepository
         return await _context.Courses.ToListAsync();
     }
 
+    public async Task<Course?> GetByIdAsync(int id)
+    {
+        return await _context.Courses.FindAsync(id);
+    }
+
     public async Task<Course?> GetByNameAsync(string name)
     {
         return await _context.Courses.FirstOrDefaultAsync(c => c.Name == name);
