@@ -38,9 +38,9 @@ public class StudentRepository : IStudentRepository
         _context.Students.Update(student);
     }
 
-    public async Task DeleteAsync(int id)
+    public async Task DeleteAsync(Student student)
     {
-        var existingStudent = await _context.Students.FindAsync(id);
+        var existingStudent = await _context.Students.FindAsync(student);
         
         if (existingStudent != null)
             _context.Students.Remove(existingStudent);

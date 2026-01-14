@@ -18,7 +18,7 @@ public class CourseRepository : ICourseRepository
         return await _context.Courses.ToListAsync();
     }
 
-    public async Task<Course?> GetCourseByNameAsync(string name)
+    public async Task<Course?> GetByNameAsync(string name)
     {
         return await _context.Courses.FirstOrDefaultAsync(c => c.Name == name);
     }
@@ -33,9 +33,9 @@ public class CourseRepository : ICourseRepository
         _context.Update(course);
     }
 
-    public async Task DeleteAsync(int id, Course course)
+    public async Task DeleteAsync(Course course)
     {
-        var existingCourse = await _context.Courses.FindAsync(id, course);
+        var existingCourse = await _context.Courses.FindAsync(course);
         
         if (existingCourse != null)
             _context.Courses.Remove(existingCourse);

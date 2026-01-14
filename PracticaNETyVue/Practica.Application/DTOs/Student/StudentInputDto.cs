@@ -1,0 +1,7 @@
+﻿namespace Practica.Application.DTOs.Student;
+
+public class StudentInputDto
+{
+    public string Name { get; set; } = string.Empty;
+    public string Document  { get; set; } = string.Empty;
+}

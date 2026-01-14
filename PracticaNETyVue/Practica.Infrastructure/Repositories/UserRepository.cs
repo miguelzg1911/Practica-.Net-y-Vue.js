@@ -39,9 +39,10 @@ public class UserRepository : IUserRepository
         _context.Users.Update(user);
     }
 
-    public async Task DeleteAsync(int id, User user)
+    public async Task DeleteAsync(User user)
     {
-        var existingUser = await _context.Users.FindAsync(id, user);
+        var existingUser = await _context.Users.FindAsync(user);
+        
         if  (existingUser != null)
             _context.Users.Remove(existingUser);
     }
