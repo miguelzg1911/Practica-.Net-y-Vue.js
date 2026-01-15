@@ -10,18 +10,6 @@
 /home/coders/Imágenes/Practica-.Net-y-Vue.js/PracticaNETyVue/Practica.Domain/obj/Debug/net8.0/refint/Practica.Domain.dll
 /home/coders/Imágenes/Practica-.Net-y-Vue.js/PracticaNETyVue/Practica.Domain/obj/Debug/net8.0/Practica.Domain.pdb
 /home/coders/Imágenes/Practica-.Net-y-Vue.js/PracticaNETyVue/Practica.Domain/obj/Debug/net8.0/ref/Practica.Domain.dll
-C:/Users/Daniela o cualquiera/OneDrive/Documentos/Miguel/Practica-.Net-y-Vue.js/PracticaNETyVue/Practica.Domain/bin/Debug/net8.0/Practica.Domain.deps.json
-C:/Users/Daniela o cualquiera/OneDrive/Documentos/Miguel/Practica-.Net-y-Vue.js/PracticaNETyVue/Practica.Domain/bin/Debug/net8.0/Practica.Domain.dll
-C:/Users/Daniela o cualquiera/OneDrive/Documentos/Miguel/Practica-.Net-y-Vue.js/PracticaNETyVue/Practica.Domain/bin/Debug/net8.0/Practica.Domain.pdb
-C:/Users/Daniela o cualquiera/OneDrive/Documentos/Miguel/Practica-.Net-y-Vue.js/PracticaNETyVue/Practica.Domain/obj/Debug/net8.0/Practica.Domain.GeneratedMSBuildEditorConfig.editorconfig
-C:/Users/Daniela o cualquiera/OneDrive/Documentos/Miguel/Practica-.Net-y-Vue.js/PracticaNETyVue/Practica.Domain/obj/Debug/net8.0/Practica.Domain.AssemblyInfoInputs.cache
-C:/Users/Daniela o cualquiera/OneDrive/Documentos/Miguel/Practica-.Net-y-Vue.js/PracticaNETyVue/Practica.Domain/obj/Debug/net8.0/Practica.Domain.AssemblyInfo.cs
-C:/Users/Daniela o cualquiera/OneDrive/Documentos/Miguel/Practica-.Net-y-Vue.js/PracticaNETyVue/Practica.Domain/obj/Debug/net8.0/Practica.Domain.csproj.CoreCompileInputs.cache
-C:/Users/Daniela o cualquiera/OneDrive/Documentos/Miguel/Practica-.Net-y-Vue.js/PracticaNETyVue/Practica.Domain/obj/Debug/net8.0/Practica.Domain.sourcelink.json
-C:/Users/Daniela o cualquiera/OneDrive/Documentos/Miguel/Practica-.Net-y-Vue.js/PracticaNETyVue/Practica.Domain/obj/Debug/net8.0/Practica.Domain.dll
-C:/Users/Daniela o cualquiera/OneDrive/Documentos/Miguel/Practica-.Net-y-Vue.js/PracticaNETyVue/Practica.Domain/obj/Debug/net8.0/refint/Practica.Domain.dll
-C:/Users/Daniela o cualquiera/OneDrive/Documentos/Miguel/Practica-.Net-y-Vue.js/PracticaNETyVue/Practica.Domain/obj/Debug/net8.0/Practica.Domain.pdb
-C:/Users/Daniela o cualquiera/OneDrive/Documentos/Miguel/Practica-.Net-y-Vue.js/PracticaNETyVue/Practica.Domain/obj/Debug/net8.0/ref/Practica.Domain.dll
 /home/coders/Practica-.Net-y-Vue.js/PracticaNETyVue/Practica.Domain/bin/Debug/net8.0/Practica.Domain.deps.json
 /home/coders/Practica-.Net-y-Vue.js/PracticaNETyVue/Practica.Domain/bin/Debug/net8.0/Practica.Domain.dll
 /home/coders/Practica-.Net-y-Vue.js/PracticaNETyVue/Practica.Domain/bin/Debug/net8.0/Practica.Domain.pdb
@@ -34,3 +22,15 @@ C:/Users/Daniela o cualquiera/OneDrive/Documentos/Miguel/Practica-.Net-y-Vue.js/
 /home/coders/Practica-.Net-y-Vue.js/PracticaNETyVue/Practica.Domain/obj/Debug/net8.0/refint/Practica.Domain.dll
 /home/coders/Practica-.Net-y-Vue.js/PracticaNETyVue/Practica.Domain/obj/Debug/net8.0/Practica.Domain.pdb
 /home/coders/Practica-.Net-y-Vue.js/PracticaNETyVue/Practica.Domain/obj/Debug/net8.0/ref/Practica.Domain.dll
+C:\Users\Daniela o cualquiera\OneDrive\Documentos\Miguel\Practica-.Net-y-Vue.js\PracticaNETyVue\Practica.Domain\bin\Debug\net8.0\Practica.Domain.deps.json
+C:\Users\Daniela o cualquiera\OneDrive\Documentos\Miguel\Practica-.Net-y-Vue.js\PracticaNETyVue\Practica.Domain\bin\Debug\net8.0\Practica.Domain.dll
+C:\Users\Daniela o cualquiera\OneDrive\Documentos\Miguel\Practica-.Net-y-Vue.js\PracticaNETyVue\Practica.Domain\bin\Debug\net8.0\Practica.Domain.pdb
+C:\Users\Daniela o cualquiera\OneDrive\Documentos\Miguel\Practica-.Net-y-Vue.js\PracticaNETyVue\Practica.Domain\obj\Debug\net8.0\Practica.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Daniela o cualquiera\OneDrive\Documentos\Miguel\Practica-.Net-y-Vue.js\PracticaNETyVue\Practica.Domain\obj\Debug\net8.0\Practica.Domain.AssemblyInfoInputs.cache
+C:\Users\Daniela o cualquiera\OneDrive\Documentos\Miguel\Practica-.Net-y-Vue.js\PracticaNETyVue\Practica.Domain\obj\Debug\net8.0\Practica.Domain.AssemblyInfo.cs
+C:\Users\Daniela o cualquiera\OneDrive\Documentos\Miguel\Practica-.Net-y-Vue.js\PracticaNETyVue\Practica.Domain\obj\Debug\net8.0\Practica.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Daniela o cualquiera\OneDrive\Documentos\Miguel\Practica-.Net-y-Vue.js\PracticaNETyVue\Practica.Domain\obj\Debug\net8.0\Practica.Domain.sourcelink.json
+C:\Users\Daniela o cualquiera\OneDrive\Documentos\Miguel\Practica-.Net-y-Vue.js\PracticaNETyVue\Practica.Domain\obj\Debug\net8.0\Practica.Domain.dll
+C:\Users\Daniela o cualquiera\OneDrive\Documentos\Miguel\Practica-.Net-y-Vue.js\PracticaNETyVue\Practica.Domain\obj\Debug\net8.0\refint\Practica.Domain.dll
+C:\Users\Daniela o cualquiera\OneDrive\Documentos\Miguel\Practica-.Net-y-Vue.js\PracticaNETyVue\Practica.Domain\obj\Debug\net8.0\Practica.Domain.pdb
+C:\Users\Daniela o cualquiera\OneDrive\Documentos\Miguel\Practica-.Net-y-Vue.js\PracticaNETyVue\Practica.Domain\obj\Debug\net8.0\ref\Practica.Domain.dll

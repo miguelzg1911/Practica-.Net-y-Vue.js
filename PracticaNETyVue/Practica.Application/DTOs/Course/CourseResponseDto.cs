@@ -6,6 +6,6 @@ public class CourseResponseDto
     public string Name { get; set; } = string.Empty;
     public string Status { get; set; } = string.Empty;
 
+    public int TeacherId { get; set; }
     public string TeacherName { get; set; } = string.Empty;
-    public string StudentName { get; set; } = string.Empty;
 }

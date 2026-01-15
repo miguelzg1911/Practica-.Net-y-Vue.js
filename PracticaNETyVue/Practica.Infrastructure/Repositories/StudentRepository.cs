@@ -23,11 +23,6 @@ public class StudentRepository : IStudentRepository
         return await _context.Students.FindAsync(id);
     }
     
-    public async Task<Student?> GetCourseByNameAsync(string courseName)
-    {
-        return await _context.Students.FirstOrDefaultAsync(c => c.Name == courseName);
-    }
-
     public async Task AddAsync(Student student)
     {
         _context.Students.Add(student);
@@ -38,12 +33,10 @@ public class StudentRepository : IStudentRepository
         _context.Students.Update(student);
     }
 
-    public async Task DeleteAsync(Student student)
+    public Task DeleteAsync(Student student)
     {
-        var existingStudent = await _context.Students.FindAsync(student);
-        
-        if (existingStudent != null)
-            _context.Students.Remove(existingStudent);
+        _context.Students.Remove(student);
+        return Task.CompletedTask;
     }
 
     public async Task SaveChangesAsync()

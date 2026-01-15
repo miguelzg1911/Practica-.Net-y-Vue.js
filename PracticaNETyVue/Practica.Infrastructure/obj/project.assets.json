@@ -2278,33 +2278,32 @@
     ]
   },
   "packageFolders": {
-    "/home/coders/.nuget/packages/": {}
+    "C:\\Users\\Daniela o cualquiera\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/coders/Practica-.Net-y-Vue.js/PracticaNETyVue/Practica.Infrastructure/Practica.Infrastructure.csproj",
+      "projectUniqueName": "C:\\Users\\Daniela o cualquiera\\OneDrive\\Documentos\\Miguel\\Practica-.Net-y-Vue.js\\PracticaNETyVue\\Practica.Infrastructure\\Practica.Infrastructure.csproj",
       "projectName": "Practica.Infrastructure",
-      "projectPath": "/home/coders/Practica-.Net-y-Vue.js/PracticaNETyVue/Practica.Infrastructure/Practica.Infrastructure.csproj",
-      "packagesPath": "/home/coders/.nuget/packages/",
-      "outputPath": "/home/coders/Practica-.Net-y-Vue.js/PracticaNETyVue/Practica.Infrastructure/obj/",
+      "projectPath": "C:\\Users\\Daniela o cualquiera\\OneDrive\\Documentos\\Miguel\\Practica-.Net-y-Vue.js\\PracticaNETyVue\\Practica.Infrastructure\\Practica.Infrastructure.csproj",
+      "packagesPath": "C:\\Users\\Daniela o cualquiera\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Daniela o cualquiera\\OneDrive\\Documentos\\Miguel\\Practica-.Net-y-Vue.js\\PracticaNETyVue\\Practica.Infrastructure\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/coders/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\Daniela o cualquiera\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
-        "/usr/lib/dotnet/library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "/home/coders/Practica-.Net-y-Vue.js/PracticaNETyVue/Practica.Domain/Practica.Domain.csproj": {
-              "projectPath": "/home/coders/Practica-.Net-y-Vue.js/PracticaNETyVue/Practica.Domain/Practica.Domain.csproj"
+            "C:\\Users\\Daniela o cualquiera\\OneDrive\\Documentos\\Miguel\\Practica-.Net-y-Vue.js\\PracticaNETyVue\\Practica.Domain\\Practica.Domain.csproj": {
+              "projectPath": "C:\\Users\\Daniela o cualquiera\\OneDrive\\Documentos\\Miguel\\Practica-.Net-y-Vue.js\\PracticaNETyVue\\Practica.Domain\\Practica.Domain.csproj"
             }
           }
         }
@@ -2318,8 +2317,7 @@
         "enableAudit": "true",
         "auditLevel": "low",
         "auditMode": "direct"
-      },
-      "SdkAnalysisLevel": "9.0.100"
+      }
     },
     "frameworks": {
       "net8.0": {
@@ -2356,7 +2354,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/9.0.111/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.404/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

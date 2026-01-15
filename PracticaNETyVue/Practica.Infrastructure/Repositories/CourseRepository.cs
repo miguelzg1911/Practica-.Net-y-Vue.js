@@ -38,12 +38,10 @@ public class CourseRepository : ICourseRepository
         _context.Update(course);
     }
 
-    public async Task DeleteAsync(Course course)
+    public Task DeleteAsync(Course course)
     {
-        var existingCourse = await _context.Courses.FindAsync(course);
-        
-        if (existingCourse != null)
-            _context.Courses.Remove(existingCourse);
+        _context.Courses.Remove(course);
+        return Task.CompletedTask;
     }
 
     public async Task SaveChangesAsync()

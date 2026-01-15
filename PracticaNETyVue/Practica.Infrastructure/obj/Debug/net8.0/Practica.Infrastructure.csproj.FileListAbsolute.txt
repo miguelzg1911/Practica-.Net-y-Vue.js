@@ -16,24 +16,6 @@
 /home/coders/Imágenes/Practica-.Net-y-Vue.js/PracticaNETyVue/Practica.Infrastructure/obj/Debug/net8.0/Practica.Infrastructure.pdb
 /home/coders/Imágenes/Practica-.Net-y-Vue.js/PracticaNETyVue/Practica.Infrastructure/obj/Debug/net8.0/Practica.Infrastructure.genruntimeconfig.cache
 /home/coders/Imágenes/Practica-.Net-y-Vue.js/PracticaNETyVue/Practica.Infrastructure/obj/Debug/net8.0/ref/Practica.Infrastructure.dll
-C:/Users/Daniela o cualquiera/OneDrive/Documentos/Miguel/Practica-.Net-y-Vue.js/PracticaNETyVue/Practica.Infrastructure/bin/Debug/net8.0/Practica.Infrastructure.deps.json
-C:/Users/Daniela o cualquiera/OneDrive/Documentos/Miguel/Practica-.Net-y-Vue.js/PracticaNETyVue/Practica.Infrastructure/bin/Debug/net8.0/Practica.Infrastructure.runtimeconfig.json
-C:/Users/Daniela o cualquiera/OneDrive/Documentos/Miguel/Practica-.Net-y-Vue.js/PracticaNETyVue/Practica.Infrastructure/bin/Debug/net8.0/Practica.Infrastructure.dll
-C:/Users/Daniela o cualquiera/OneDrive/Documentos/Miguel/Practica-.Net-y-Vue.js/PracticaNETyVue/Practica.Infrastructure/bin/Debug/net8.0/Practica.Infrastructure.pdb
-C:/Users/Daniela o cualquiera/OneDrive/Documentos/Miguel/Practica-.Net-y-Vue.js/PracticaNETyVue/Practica.Infrastructure/bin/Debug/net8.0/Practica.Domain.dll
-C:/Users/Daniela o cualquiera/OneDrive/Documentos/Miguel/Practica-.Net-y-Vue.js/PracticaNETyVue/Practica.Infrastructure/bin/Debug/net8.0/Practica.Domain.pdb
-C:/Users/Daniela o cualquiera/OneDrive/Documentos/Miguel/Practica-.Net-y-Vue.js/PracticaNETyVue/Practica.Infrastructure/obj/Debug/net8.0/Practica.Infrastructure.csproj.AssemblyReference.cache
-C:/Users/Daniela o cualquiera/OneDrive/Documentos/Miguel/Practica-.Net-y-Vue.js/PracticaNETyVue/Practica.Infrastructure/obj/Debug/net8.0/Practica.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
-C:/Users/Daniela o cualquiera/OneDrive/Documentos/Miguel/Practica-.Net-y-Vue.js/PracticaNETyVue/Practica.Infrastructure/obj/Debug/net8.0/Practica.Infrastructure.AssemblyInfoInputs.cache
-C:/Users/Daniela o cualquiera/OneDrive/Documentos/Miguel/Practica-.Net-y-Vue.js/PracticaNETyVue/Practica.Infrastructure/obj/Debug/net8.0/Practica.Infrastructure.AssemblyInfo.cs
-C:/Users/Daniela o cualquiera/OneDrive/Documentos/Miguel/Practica-.Net-y-Vue.js/PracticaNETyVue/Practica.Infrastructure/obj/Debug/net8.0/Practica.Infrastructure.csproj.CoreCompileInputs.cache
-C:/Users/Daniela o cualquiera/OneDrive/Documentos/Miguel/Practica-.Net-y-Vue.js/PracticaNETyVue/Practica.Infrastructure/obj/Debug/net8.0/Practica.Infrastructure.sourcelink.json
-C:/Users/Daniela o cualquiera/OneDrive/Documentos/Miguel/Practica-.Net-y-Vue.js/PracticaNETyVue/Practica.Infrastructure/obj/Debug/net8.0/Practica.F955EE9D.Up2Date
-C:/Users/Daniela o cualquiera/OneDrive/Documentos/Miguel/Practica-.Net-y-Vue.js/PracticaNETyVue/Practica.Infrastructure/obj/Debug/net8.0/Practica.Infrastructure.dll
-C:/Users/Daniela o cualquiera/OneDrive/Documentos/Miguel/Practica-.Net-y-Vue.js/PracticaNETyVue/Practica.Infrastructure/obj/Debug/net8.0/refint/Practica.Infrastructure.dll
-C:/Users/Daniela o cualquiera/OneDrive/Documentos/Miguel/Practica-.Net-y-Vue.js/PracticaNETyVue/Practica.Infrastructure/obj/Debug/net8.0/Practica.Infrastructure.pdb
-C:/Users/Daniela o cualquiera/OneDrive/Documentos/Miguel/Practica-.Net-y-Vue.js/PracticaNETyVue/Practica.Infrastructure/obj/Debug/net8.0/Practica.Infrastructure.genruntimeconfig.cache
-C:/Users/Daniela o cualquiera/OneDrive/Documentos/Miguel/Practica-.Net-y-Vue.js/PracticaNETyVue/Practica.Infrastructure/obj/Debug/net8.0/ref/Practica.Infrastructure.dll
 /home/coders/Practica-.Net-y-Vue.js/PracticaNETyVue/Practica.Infrastructure/bin/Debug/net8.0/Practica.Infrastructure.deps.json
 /home/coders/Practica-.Net-y-Vue.js/PracticaNETyVue/Practica.Infrastructure/bin/Debug/net8.0/Practica.Infrastructure.runtimeconfig.json
 /home/coders/Practica-.Net-y-Vue.js/PracticaNETyVue/Practica.Infrastructure/bin/Debug/net8.0/Practica.Infrastructure.dll
@@ -52,3 +34,21 @@ C:/Users/Daniela o cualquiera/OneDrive/Documentos/Miguel/Practica-.Net-y-Vue.js/
 /home/coders/Practica-.Net-y-Vue.js/PracticaNETyVue/Practica.Infrastructure/obj/Debug/net8.0/Practica.Infrastructure.pdb
 /home/coders/Practica-.Net-y-Vue.js/PracticaNETyVue/Practica.Infrastructure/obj/Debug/net8.0/Practica.Infrastructure.genruntimeconfig.cache
 /home/coders/Practica-.Net-y-Vue.js/PracticaNETyVue/Practica.Infrastructure/obj/Debug/net8.0/ref/Practica.Infrastructure.dll
+C:\Users\Daniela o cualquiera\OneDrive\Documentos\Miguel\Practica-.Net-y-Vue.js\PracticaNETyVue\Practica.Infrastructure\bin\Debug\net8.0\Practica.Infrastructure.deps.json
+C:\Users\Daniela o cualquiera\OneDrive\Documentos\Miguel\Practica-.Net-y-Vue.js\PracticaNETyVue\Practica.Infrastructure\bin\Debug\net8.0\Practica.Infrastructure.runtimeconfig.json
+C:\Users\Daniela o cualquiera\OneDrive\Documentos\Miguel\Practica-.Net-y-Vue.js\PracticaNETyVue\Practica.Infrastructure\bin\Debug\net8.0\Practica.Infrastructure.dll
+C:\Users\Daniela o cualquiera\OneDrive\Documentos\Miguel\Practica-.Net-y-Vue.js\PracticaNETyVue\Practica.Infrastructure\bin\Debug\net8.0\Practica.Infrastructure.pdb
+C:\Users\Daniela o cualquiera\OneDrive\Documentos\Miguel\Practica-.Net-y-Vue.js\PracticaNETyVue\Practica.Infrastructure\bin\Debug\net8.0\Practica.Domain.dll
+C:\Users\Daniela o cualquiera\OneDrive\Documentos\Miguel\Practica-.Net-y-Vue.js\PracticaNETyVue\Practica.Infrastructure\bin\Debug\net8.0\Practica.Domain.pdb
+C:\Users\Daniela o cualquiera\OneDrive\Documentos\Miguel\Practica-.Net-y-Vue.js\PracticaNETyVue\Practica.Infrastructure\obj\Debug\net8.0\Practica.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\Daniela o cualquiera\OneDrive\Documentos\Miguel\Practica-.Net-y-Vue.js\PracticaNETyVue\Practica.Infrastructure\obj\Debug\net8.0\Practica.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Daniela o cualquiera\OneDrive\Documentos\Miguel\Practica-.Net-y-Vue.js\PracticaNETyVue\Practica.Infrastructure\obj\Debug\net8.0\Practica.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\Daniela o cualquiera\OneDrive\Documentos\Miguel\Practica-.Net-y-Vue.js\PracticaNETyVue\Practica.Infrastructure\obj\Debug\net8.0\Practica.Infrastructure.AssemblyInfo.cs
+C:\Users\Daniela o cualquiera\OneDrive\Documentos\Miguel\Practica-.Net-y-Vue.js\PracticaNETyVue\Practica.Infrastructure\obj\Debug\net8.0\Practica.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\Daniela o cualquiera\OneDrive\Documentos\Miguel\Practica-.Net-y-Vue.js\PracticaNETyVue\Practica.Infrastructure\obj\Debug\net8.0\Practica.Infrastructure.sourcelink.json
+C:\Users\Daniela o cualquiera\OneDrive\Documentos\Miguel\Practica-.Net-y-Vue.js\PracticaNETyVue\Practica.Infrastructure\obj\Debug\net8.0\Practica.F955EE9D.Up2Date
+C:\Users\Daniela o cualquiera\OneDrive\Documentos\Miguel\Practica-.Net-y-Vue.js\PracticaNETyVue\Practica.Infrastructure\obj\Debug\net8.0\Practica.Infrastructure.dll
+C:\Users\Daniela o cualquiera\OneDrive\Documentos\Miguel\Practica-.Net-y-Vue.js\PracticaNETyVue\Practica.Infrastructure\obj\Debug\net8.0\refint\Practica.Infrastructure.dll
+C:\Users\Daniela o cualquiera\OneDrive\Documentos\Miguel\Practica-.Net-y-Vue.js\PracticaNETyVue\Practica.Infrastructure\obj\Debug\net8.0\Practica.Infrastructure.pdb
+C:\Users\Daniela o cualquiera\OneDrive\Documentos\Miguel\Practica-.Net-y-Vue.js\PracticaNETyVue\Practica.Infrastructure\obj\Debug\net8.0\Practica.Infrastructure.genruntimeconfig.cache
+C:\Users\Daniela o cualquiera\OneDrive\Documentos\Miguel\Practica-.Net-y-Vue.js\PracticaNETyVue\Practica.Infrastructure\obj\Debug\net8.0\ref\Practica.Infrastructure.dll

@@ -39,12 +39,10 @@ public class UserRepository : IUserRepository
         _context.Users.Update(user);
     }
 
-    public async Task DeleteAsync(User user)
+    public Task DeleteAsync(User user)
     {
-        var existingUser = await _context.Users.FindAsync(user);
-        
-        if  (existingUser != null)
-            _context.Users.Remove(existingUser);
+        _context.Users.Remove(user);
+        return Task.CompletedTask;
     }
 
     public async Task SaveChangesAsync()

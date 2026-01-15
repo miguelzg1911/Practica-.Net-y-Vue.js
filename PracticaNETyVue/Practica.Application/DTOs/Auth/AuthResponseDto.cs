@@ -2,10 +2,13 @@
 
 namespace Practica.Application.DTOs.Auth;
 
-public class UserResponseDto
+public class AuthResponseDto
 {
     public int Id { get; set; }
     public string Username { get; set; } = string.Empty;
     public string Email { get; set; } = string.Empty;
-    public Role Role { get; set; }
+    public string Role { get; set; } = string.Empty;
+    
+    public string AccessToken { get; set; } = string.Empty;
+    public string RefreshToken { get; set; } = string.Empty;
 }

@@ -39,12 +39,10 @@ public class TeacherRepository : ITeacherRepository
         _context.Teachers.Update(teacher);
     }
 
-    public async Task DeleteAsync(Teacher teacher)
-    {
-        var existingTeacher = await _context.Teachers.FindAsync(teacher);
-        
-        if (existingTeacher != null)
-            _context.Teachers.Remove(existingTeacher);
+    public Task DeleteAsync(Teacher teacher)
+    { 
+        _context.Teachers.Remove(teacher);
+        return Task.CompletedTask;
     }
 
     public async Task SaveChangesAsync()
