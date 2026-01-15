@@ -46,7 +46,7 @@ C:/Users/Daniela o cualquiera/OneDrive/Documentos/Miguel/Practica-.Net-y-Vue.js/
 /home/coders/Practica-.Net-y-Vue.js/PracticaNETyVue/Practica.Infrastructure/obj/Debug/net8.0/Practica.Infrastructure.AssemblyInfo.cs
 /home/coders/Practica-.Net-y-Vue.js/PracticaNETyVue/Practica.Infrastructure/obj/Debug/net8.0/Practica.Infrastructure.csproj.CoreCompileInputs.cache
 /home/coders/Practica-.Net-y-Vue.js/PracticaNETyVue/Practica.Infrastructure/obj/Debug/net8.0/Practica.Infrastructure.sourcelink.json
-/home/coders/Practica-.Net-y-Vue.js/PracticaNETyVue/Practica.Infrastructure/obj/Debug/net8.0/Practica.Infrastructure.csproj.CopyComplete
+/home/coders/Practica-.Net-y-Vue.js/PracticaNETyVue/Practica.Infrastructure/obj/Debug/net8.0/Practica.F955EE9D.Up2Date
 /home/coders/Practica-.Net-y-Vue.js/PracticaNETyVue/Practica.Infrastructure/obj/Debug/net8.0/Practica.Infrastructure.dll
 /home/coders/Practica-.Net-y-Vue.js/PracticaNETyVue/Practica.Infrastructure/obj/Debug/net8.0/refint/Practica.Infrastructure.dll
 /home/coders/Practica-.Net-y-Vue.js/PracticaNETyVue/Practica.Infrastructure/obj/Debug/net8.0/Practica.Infrastructure.pdb

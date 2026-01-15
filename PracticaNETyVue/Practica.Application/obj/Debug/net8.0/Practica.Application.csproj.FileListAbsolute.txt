@@ -41,7 +41,7 @@ C:/Users/Daniela o cualquiera/OneDrive/Documentos/Miguel/Practica-.Net-y-Vue.js/
 /home/coders/Practica-.Net-y-Vue.js/PracticaNETyVue/Practica.Application/obj/Debug/net8.0/Practica.Application.AssemblyInfo.cs
 /home/coders/Practica-.Net-y-Vue.js/PracticaNETyVue/Practica.Application/obj/Debug/net8.0/Practica.Application.csproj.CoreCompileInputs.cache
 /home/coders/Practica-.Net-y-Vue.js/PracticaNETyVue/Practica.Application/obj/Debug/net8.0/Practica.Application.sourcelink.json
-/home/coders/Practica-.Net-y-Vue.js/PracticaNETyVue/Practica.Application/obj/Debug/net8.0/Practica.Application.csproj.CopyComplete
+/home/coders/Practica-.Net-y-Vue.js/PracticaNETyVue/Practica.Application/obj/Debug/net8.0/Practica.14487263.Up2Date
 /home/coders/Practica-.Net-y-Vue.js/PracticaNETyVue/Practica.Application/obj/Debug/net8.0/Practica.Application.dll
 /home/coders/Practica-.Net-y-Vue.js/PracticaNETyVue/Practica.Application/obj/Debug/net8.0/refint/Practica.Application.dll
 /home/coders/Practica-.Net-y-Vue.js/PracticaNETyVue/Practica.Application/obj/Debug/net8.0/Practica.Application.pdb

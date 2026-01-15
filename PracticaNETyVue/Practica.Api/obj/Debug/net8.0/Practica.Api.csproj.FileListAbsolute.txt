@@ -244,6 +244,7 @@ C:/Users/Daniela o cualquiera/OneDrive/Documentos/Miguel/Practica-.Net-y-Vue.js/
 C:/Users/Daniela o cualquiera/OneDrive/Documentos/Miguel/Practica-.Net-y-Vue.js/PracticaNETyVue/Practica.Api/bin/Debug/net8.0/runtimes/win/lib/net8.0/System.Security.Cryptography.Pkcs.dll
 /home/coders/Practica-.Net-y-Vue.js/PracticaNETyVue/Practica.Api/bin/Debug/net8.0/appsettings.Development.json
 /home/coders/Practica-.Net-y-Vue.js/PracticaNETyVue/Practica.Api/bin/Debug/net8.0/appsettings.json
+/home/coders/Practica-.Net-y-Vue.js/PracticaNETyVue/Practica.Api/bin/Debug/net8.0/Practica.Api.staticwebassets.endpoints.json
 /home/coders/Practica-.Net-y-Vue.js/PracticaNETyVue/Practica.Api/bin/Debug/net8.0/Practica.Api
 /home/coders/Practica-.Net-y-Vue.js/PracticaNETyVue/Practica.Api/bin/Debug/net8.0/Practica.Api.deps.json
 /home/coders/Practica-.Net-y-Vue.js/PracticaNETyVue/Practica.Api/bin/Debug/net8.0/Practica.Api.runtimeconfig.json
@@ -360,15 +361,17 @@ C:/Users/Daniela o cualquiera/OneDrive/Documentos/Miguel/Practica-.Net-y-Vue.js/
 /home/coders/Practica-.Net-y-Vue.js/PracticaNETyVue/Practica.Api/obj/Debug/net8.0/Practica.Api.MvcApplicationPartsAssemblyInfo.cs
 /home/coders/Practica-.Net-y-Vue.js/PracticaNETyVue/Practica.Api/obj/Debug/net8.0/Practica.Api.MvcApplicationPartsAssemblyInfo.cache
 /home/coders/Practica-.Net-y-Vue.js/PracticaNETyVue/Practica.Api/obj/Debug/net8.0/Practica.Api.sourcelink.json
+/home/coders/Practica-.Net-y-Vue.js/PracticaNETyVue/Practica.Api/obj/Debug/net8.0/scopedcss/bundle/Practica.Api.styles.css
 /home/coders/Practica-.Net-y-Vue.js/PracticaNETyVue/Practica.Api/obj/Debug/net8.0/staticwebassets.build.json
 /home/coders/Practica-.Net-y-Vue.js/PracticaNETyVue/Practica.Api/obj/Debug/net8.0/staticwebassets.development.json
+/home/coders/Practica-.Net-y-Vue.js/PracticaNETyVue/Practica.Api/obj/Debug/net8.0/staticwebassets.build.endpoints.json
 /home/coders/Practica-.Net-y-Vue.js/PracticaNETyVue/Practica.Api/obj/Debug/net8.0/staticwebassets/msbuild.Practica.Api.Microsoft.AspNetCore.StaticWebAssets.props
+/home/coders/Practica-.Net-y-Vue.js/PracticaNETyVue/Practica.Api/obj/Debug/net8.0/staticwebassets/msbuild.Practica.Api.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
 /home/coders/Practica-.Net-y-Vue.js/PracticaNETyVue/Practica.Api/obj/Debug/net8.0/staticwebassets/msbuild.build.Practica.Api.props
 /home/coders/Practica-.Net-y-Vue.js/PracticaNETyVue/Practica.Api/obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.Practica.Api.props
 /home/coders/Practica-.Net-y-Vue.js/PracticaNETyVue/Practica.Api/obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.Practica.Api.props
 /home/coders/Practica-.Net-y-Vue.js/PracticaNETyVue/Practica.Api/obj/Debug/net8.0/staticwebassets.pack.json
-/home/coders/Practica-.Net-y-Vue.js/PracticaNETyVue/Practica.Api/obj/Debug/net8.0/scopedcss/bundle/Practica.Api.styles.css
-/home/coders/Practica-.Net-y-Vue.js/PracticaNETyVue/Practica.Api/obj/Debug/net8.0/Practica.Api.csproj.CopyComplete
+/home/coders/Practica-.Net-y-Vue.js/PracticaNETyVue/Practica.Api/obj/Debug/net8.0/Practica.76C2E468.Up2Date
 /home/coders/Practica-.Net-y-Vue.js/PracticaNETyVue/Practica.Api/obj/Debug/net8.0/Practica.Api.dll
 /home/coders/Practica-.Net-y-Vue.js/PracticaNETyVue/Practica.Api/obj/Debug/net8.0/refint/Practica.Api.dll
 /home/coders/Practica-.Net-y-Vue.js/PracticaNETyVue/Practica.Api/obj/Debug/net8.0/Practica.Api.pdb

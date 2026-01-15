@@ -2,6 +2,7 @@ namespace Practica.Domain.Enum;
 
 public enum Role
 {
-    Teacher,
-    Student
+    Admin = 1,
+    Teacher = 2,
+    Student = 3
 }

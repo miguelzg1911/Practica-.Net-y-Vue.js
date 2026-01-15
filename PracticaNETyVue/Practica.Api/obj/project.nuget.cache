@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "MQlZKsAaQdI=",
+  "dgSpecHash": "M/BF88K+sKY=",
   "success": true,
   "projectFilePath": "/home/coders/Practica-.Net-y-Vue.js/PracticaNETyVue/Practica.Api/Practica.Api.csproj",
   "expectedPackageFiles": [
@@ -89,7 +89,8 @@
     "/home/coders/.nuget/packages/system.text.encoding.codepages/6.0.0/system.text.encoding.codepages.6.0.0.nupkg.sha512",
     "/home/coders/.nuget/packages/system.text.encodings.web/8.0.0/system.text.encodings.web.8.0.0.nupkg.sha512",
     "/home/coders/.nuget/packages/system.text.json/8.0.0/system.text.json.8.0.0.nupkg.sha512",
-    "/home/coders/.nuget/packages/system.threading.channels/6.0.0/system.threading.channels.6.0.0.nupkg.sha512"
+    "/home/coders/.nuget/packages/system.threading.channels/6.0.0/system.threading.channels.6.0.0.nupkg.sha512",
+    "/home/coders/.nuget/packages/microsoft.netcore.app.host.linux-x64/8.0.22/microsoft.netcore.app.host.linux-x64.8.0.22.nupkg.sha512"
   ],
   "logs": []
 }
