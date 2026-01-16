@@ -479,10 +479,7 @@
       "System.Text.Encodings.Web/8.0.0": {},
       "Practica.Domain/1.0.0": {
         "runtime": {
-          "Practica.Domain.dll": {
-            "assemblyVersion": "1.0.0",
-            "fileVersion": "1.0.0.0"
-          }
+          "Practica.Domain.dll": {}
         }
       }
     }
