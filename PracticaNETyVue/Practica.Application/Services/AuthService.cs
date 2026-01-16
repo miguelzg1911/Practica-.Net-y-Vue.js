@@ -32,11 +32,14 @@ public class AuthService : IAuthService
         if (existing != null)
             throw new Exception("Email already registered");
 
+        var allUsers = await _userRepository.GetAllAsync();
+        var usersCount = allUsers.Count(); 
+
         var user = new User
         {
             Username = dto.Username,
             Email = dto.Email,
-            Role = Role.
+            Role = (usersCount == 0) ? Role.Admin : dto.Role
         };
 
         user.PasswordHash = _passwordHasher.HashPassword(user, dto.Password);
