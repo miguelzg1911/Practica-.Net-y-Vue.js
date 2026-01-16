@@ -108,7 +108,7 @@ var app = builder.Build();
 app.UseSwagger();
 app.UseSwaggerUI(options => {
     options.SwaggerEndpoint("/swagger/v1/swagger.json", "v1");
-    options.RoutePrefix = "swagger"; // Esto asegura que cargue en la raíz /swagger
+    options.RoutePrefix = "swagger";
 });
 
 app.UseHttpsRedirection();
