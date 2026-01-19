@@ -11,7 +11,7 @@ using Practica.Infrastructure.Data;
 namespace Practica.Infrastructure.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20260119025231_Initial")]
+    [Migration("20260119112944_Initial")]
     partial class Initial
     {
         /// <inheritdoc />
@@ -27,6 +27,9 @@ namespace Practica.Infrastructure.Migrations
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
+
+                    b.Property<string>("ImageUrl")
+                        .HasColumnType("longtext");
 
                     b.Property<string>("Name")
                         .IsRequired()

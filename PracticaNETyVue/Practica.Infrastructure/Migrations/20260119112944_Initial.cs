@@ -68,6 +68,8 @@ namespace Practica.Infrastructure.Migrations
                         .Annotation("MySql:CharSet", "utf8mb4"),
                     Status = table.Column<string>(type: "longtext", nullable: false)
                         .Annotation("MySql:CharSet", "utf8mb4"),
+                    ImageUrl = table.Column<string>(type: "longtext", nullable: true)
+                        .Annotation("MySql:CharSet", "utf8mb4"),
                     TeacherId = table.Column<int>(type: "int", nullable: false)
                 },
                 constraints: table =>
