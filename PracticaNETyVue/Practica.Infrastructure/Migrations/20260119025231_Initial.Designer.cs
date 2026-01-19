@@ -11,8 +11,8 @@ using Practica.Infrastructure.Data;
 namespace Practica.Infrastructure.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20260116111757_InitialCreate")]
-    partial class InitialCreate
+    [Migration("20260119025231_Initial")]
+    partial class Initial
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -67,7 +67,6 @@ namespace Practica.Infrastructure.Migrations
             modelBuilder.Entity("Practica.Domain.Entities.Student", b =>
                 {
                     b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
                     b.Property<string>("Document")
@@ -86,7 +85,6 @@ namespace Practica.Infrastructure.Migrations
             modelBuilder.Entity("Practica.Domain.Entities.Teacher", b =>
                 {
                     b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
                     b.Property<string>("Document")
@@ -170,6 +168,17 @@ namespace Practica.Infrastructure.Migrations
                     b.Navigation("Course");
 
                     b.Navigation("Student");
+                });
+
+            modelBuilder.Entity("Practica.Domain.Entities.Student", b =>
+                {
+                    b.HasOne("Practica.Domain.Entities.User", "User")
+                        .WithMany()
+                        .HasForeignKey("Id")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("User");
                 });
 
             modelBuilder.Entity("Practica.Domain.Entities.Course", b =>

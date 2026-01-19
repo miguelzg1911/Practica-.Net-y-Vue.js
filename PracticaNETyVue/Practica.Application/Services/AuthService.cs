@@ -18,36 +18,51 @@ public class AuthService : IAuthService
     private readonly IUserRepository _userRepository;
     private readonly IConfiguration _configuration;
     private readonly PasswordHasher<User> _passwordHasher;
-
-    public AuthService(IUserRepository userRepository, IConfiguration configuration)
+    private readonly IStudentRepository _studentRepository;
+    
+    public AuthService(
+        IUserRepository userRepository, 
+        IConfiguration configuration, 
+        IStudentRepository studentRepository)
     {
         _userRepository = userRepository;
         _configuration = configuration;
+        _studentRepository = studentRepository;
         _passwordHasher = new PasswordHasher<User>();
     }
 
     public async Task<AuthResponseDto> RegisterAsync(RegisterUserDto dto)
     {
         var existing = await _userRepository.GetByEmailAsync(dto.Email);
-        if (existing != null)
+        if (existing != null) 
             throw new Exception("Email already registered");
-
+        
         var allUsers = await _userRepository.GetAllAsync();
-        var usersCount = allUsers.Count(); 
+        var assignedRole = (allUsers.Count() == 0) ? Role.Admin : Role.Student;
 
-        var user = new User
-        {
+        var user = new User {
             Username = dto.Username,
             Email = dto.Email,
-            Role = (usersCount == 0) ? Role.Admin : dto.Role
+            Role = assignedRole
         };
 
         user.PasswordHash = _passwordHasher.HashPassword(user, dto.Password);
-
         GenerateRefreshToken(user);
 
         await _userRepository.AddAsync(user);
         await _userRepository.SaveChangesAsync();
+
+        if (assignedRole == Role.Student)
+        {
+            var studentProfile = new Student
+            {
+                Id = user.Id,
+                Name = dto.FullName,
+                Document = dto.Document
+            };
+            await _studentRepository.AddAsync(studentProfile);
+            await _studentRepository.SaveChangesAsync();
+        }
 
         return CreateAuthResponse(user);
     }

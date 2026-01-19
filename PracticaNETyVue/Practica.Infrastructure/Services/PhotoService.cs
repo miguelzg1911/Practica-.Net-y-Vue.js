@@ -1,0 +1,31 @@
+﻿using CloudinaryDotNet;
+using CloudinaryDotNet.Actions;
+using Microsoft.AspNetCore.Http;
+using Microsoft.Extensions.Configuration;
+using Practica.Application.Interfaces;
+
+public class PhotoService : IPhotoService {
+    private readonly Cloudinary _cloudinary;
+
+    public PhotoService(IConfiguration config) {
+        var acc = new Account(
+            config["Cloudinary:CloudName"],
+            config["Cloudinary:ApiKey"],
+            config["Cloudinary:ApiSecret"]
+        );
+        _cloudinary = new Cloudinary(acc);
+    }
+
+    public async Task<string> UploadPhotoAsync(IFormFile file) {
+        var uploadResult = new ImageUploadResult();
+        if (file.Length > 0) {
+            using var stream = file.OpenReadStream();
+            var uploadParams = new ImageUploadParams {
+                File = new FileDescription(file.FileName, stream),
+                Transformation = new Transformation().Height(500).Width(500).Crop("fill") 
+            };
+            uploadResult = await _cloudinary.UploadAsync(uploadParams);
+        }
+        return uploadResult.SecureUrl.ToString(); // Devuelve la URL de la imagen
+    }
+}

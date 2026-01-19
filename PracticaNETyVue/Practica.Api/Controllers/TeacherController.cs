@@ -33,7 +33,7 @@ public class TeachersController : ControllerBase
         return Ok(teacher);
     }
 
-    [Authorize(Roles = "Teacher")]
+    [Authorize(Roles = "Admin")]
     [HttpPost]
     public async Task<IActionResult> Create([FromBody] TeacherInputDto dto)
     {
@@ -41,7 +41,7 @@ public class TeachersController : ControllerBase
         return CreatedAtAction(nameof(GetById), new { id = result.Id }, result);
     }
 
-    [Authorize(Roles = "Teacher")]
+    [Authorize(Roles = "Admin, Teacher")]
     [HttpPut("{id:int}")]
     public async Task<IActionResult> Update(int id, [FromBody] TeacherInputDto dto)
     {
@@ -49,7 +49,7 @@ public class TeachersController : ControllerBase
         return NoContent();
     }
 
-    [Authorize(Roles = "Teacher")]
+    [Authorize(Roles = "Admin, Teacher")]
     [HttpDelete("{id:int}")]
     public async Task<IActionResult> Delete(int id)
     {

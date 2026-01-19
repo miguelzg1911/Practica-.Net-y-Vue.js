@@ -17,12 +17,14 @@ public class StudentsController : ControllerBase
         _studentService = studentService;
     }
 
+    [Authorize(Roles = "Admin, Teacher")]
     [HttpGet]
     public async Task<IActionResult> GetAll()
     {
         return Ok(await _studentService.GetAllAsync());
     }
 
+    [Authorize(Roles = "Admin, Teacher")]
     [HttpGet("{id:int}")]
     public async Task<IActionResult> GetById(int id)
     {
@@ -33,7 +35,7 @@ public class StudentsController : ControllerBase
         return Ok(student);
     }
 
-    [Authorize(Roles = "Teacher")]
+    [Authorize(Roles = "Admin")]
     [HttpPost]
     public async Task<IActionResult> Create([FromBody] StudentInputDto dto)
     {
@@ -41,7 +43,7 @@ public class StudentsController : ControllerBase
         return CreatedAtAction(nameof(GetById), new { id = result.Id }, result);
     }
 
-    [Authorize(Roles = "Teacher")]
+    [Authorize(Roles = "Admin, Teacher")]
     [HttpPut("{id:int}")]
     public async Task<IActionResult> Update(int id, [FromBody] StudentInputDto dto)
     {
@@ -49,7 +51,7 @@ public class StudentsController : ControllerBase
         return NoContent();
     }
 
-    [Authorize(Roles = "Teacher")]
+    [Authorize(Roles = "Admin, Teacher")]
     [HttpDelete("{id:int}")]
     public async Task<IActionResult> Delete(int id)
     {
